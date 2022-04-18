@@ -307,7 +307,7 @@
  	 	 	 	"eng": "Links are not allowed"
  	 	 	},
  	 	 	"spamBlock": {
- 	 	 	 	"trans": "โปรดอย่าส่งข้อความที่ไร้ความหมายสแปมจะถูกปิดเสียง",
+ 	 	 	 	"trans": "โปรดอย่าส่งข้อความที่ไร้ความหมาย, สแปมจะถูกปิดเสียง",
  	 	 	 	"eng": "Please do not send meaningless message, spams will be muted."
  	 	 	},
  	 	 	"repeatBlock": {
@@ -315,7 +315,7 @@
  	 	 	 	"eng": "Please do not send the same message repeatedly, spams will be muted."
  	 	 	},
  	 	 	"shortChatBlock": {
- 	 	 	 	"trans": "โปรดอย่าส่งข้อความสั้นลองประโยคที่ยาวขึ้นแทน",
+ 	 	 	 	"trans": "โปรดอย่าส่งข้อความสั้น ลองประโยคที่ยาวขึ้นแทน",
  	 	 	 	"eng": "Please do not send short messages, try a longer sentence instead."
  	 	 	},
  	 	 	"underlevelChatBlock": {
@@ -696,7 +696,7 @@
  	 	},
  	 	"notificationCenter": {
  	 	 	"deleteTip": {
- 	 	 	 	"trans": "กดยาวเพื่อลบ",
+ 	 	 	 	"trans": "กดค้างเพื่อลบ",
  	 	 	 	"eng": "Long press to delete"
  	 	 	}
  	 	},
@@ -1201,7 +1201,7 @@
  	 	"rangeSelector": {
  	 	 	"selectMaxValue": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "เลือกค่าสูงสุด",
+ 	 	 	 	 	"trans": "เลือกมูลค่าสูงสุด",
  	 	 	 	 	"eng": "Select max value"
  	 	 	 	}
  	 	 	},
@@ -1236,7 +1236,7 @@
  	 	 	 	 	"eng": "You have blocked ${playerName}"
  	 	 	 	},
  	 	 	 	"unblock": {
- 	 	 	 	 	"trans": "ปลดบล็อค",
+ 	 	 	 	 	"trans": "ปลดบล็อก",
  	 	 	 	 	"eng": "Unblock"
  	 	 	 	}
  	 	 	},
@@ -1370,7 +1370,7 @@
  	 	 	 	"eng": "Welcome to"
  	 	 	},
  	 	 	"welcomeMsg": {
- 	 	 	 	"trans": "The Best Text-based MMORPG",
+ 	 	 	 	"trans": "Text-based MMORPG ที่ดีที่สุด",
  	 	 	 	"eng": "the best text-based mmorpg"
  	 	 	},
  	 	 	"hasRefererCheckbox": {
@@ -1379,17 +1379,17 @@
  	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
  	 	 	 	},
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ฉันมีผู้อ้างอิง",
+ 	 	 	 	 	"trans": "มีคนแนะนำฉัน",
  	 	 	 	 	"eng": "I have a referer"
  	 	 	 	}
  	 	 	},
  	 	 	"refererModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ใครอ้างถึงคุณ",
+ 	 	 	 	 	"trans": "ใครแนะนำคุณ",
  	 	 	 	 	"eng": "Who referred you?"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "กรุณาค้นหาและเลือกผู้เล่นที่อ้างถึงคุณ",
+ 	 	 	 	 	"trans": "กรุณาค้นหาและเลือกผู้เล่นที่แนะนำคุณ",
  	 	 	 	 	"eng": "Please search and select the player who referred you"
  	 	 	 	}
  	 	 	},
@@ -1398,7 +1398,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"name"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "คุณได้ตั้งค่า ${name} เป็นผู้อ้างอิงของคุณ",
+ 	 	 	 	 	"trans": "คุณได้ตั้งค่า ${name} เป็นผู้แนะนำของคุณ",
  	 	 	 	 	"eng": "You have set ${name} as your referer"
  	 	 	 	}
  	 	 	},
@@ -4881,35 +4881,35 @@
  	},
  	"itemTrait": {
  	 	"stun": {
- 	 	 	"trans": "ของที่น่าทึ่ง",
+ 	 	 	"trans": "แห่งการสตัน",
  	 	 	"eng": "of Stunning"
  	 	},
  	 	"bargain": {
- 	 	 	"trans": "การเจรจาต่อรอง",
+ 	 	 	"trans": "แห่งการเจรจาต่อรอง",
  	 	 	"eng": "of Bargaining"
  	 	},
  	 	"power": {
- 	 	 	"trans": "ของพลัง",
+ 	 	 	"trans": "แห่งพลัง",
  	 	 	"eng": "of Power"
  	 	},
  	 	"health": {
- 	 	 	"trans": "ของสุขภาพ",
+ 	 	 	"trans": "แห่งพลังชีวิต",
  	 	 	"eng": "of Health"
  	 	},
  	 	"healthRegen": {
- 	 	 	"trans": "ของชีวิต",
+ 	 	 	"trans": "แห่งชีวิต",
  	 	 	"eng": "of Life"
  	 	},
  	 	"maxShield": {
- 	 	 	"trans": "ของการป้องกัน",
+ 	 	 	"trans": "แห่งการป้องกัน",
  	 	 	"eng": "of Shielding"
  	 	},
  	 	"sneaky": {
- 	 	 	"trans": "ของการแอบ",
+ 	 	 	"trans": "แห่งการแอบ",
  	 	 	"eng": "of Sneaking"
  	 	},
  	 	"evade": {
- 	 	 	"trans": "ของการหลีกเลี่ยง",
+ 	 	 	"trans": "แห่งการหลีกเลี่ยง",
  	 	 	"eng": "of Evasion"
  	 	},
  	 	"pocketed": {
@@ -4917,63 +4917,63 @@
  	 	 	"eng": "with pockets"
  	 	},
  	 	"criticalChanceArmor": {
- 	 	 	"trans": "ของโอกาส crit",
+ 	 	 	"trans": "แห่งโอกาส crit",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"criticalChanceWeapon": {
- 	 	 	"trans": "ของโอกาส crit",
+ 	 	 	"trans": "แห่งโอกาส crit",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"criticalDamageArmor": {
- 	 	 	"trans": "ความเสียหายของ Crit",
+ 	 	 	"trans": "แห่งความเสียหายของ Crit",
  	 	 	"eng": "of Brutality"
  	 	},
  	 	"healingMultiplier": {
- 	 	 	"trans": "ของการรักษา",
+ 	 	 	"trans": "แห่งการรักษา",
  	 	 	"eng": "of Healing"
  	 	},
  	 	"criticalDamageWeapon": {
- 	 	 	"trans": "ความเสียหายของ Crit",
+ 	 	 	"trans": "แห่งความเสียหายของ Crit",
  	 	 	"eng": "of Crit Damage"
  	 	},
  	 	"upgradeHealth": {
- 	 	 	"trans": "ของสุขภาพ",
+ 	 	 	"trans": "แห่งพลังชีวิต",
  	 	 	"eng": "of Health"
  	 	},
  	 	"upgradeDamage": {
- 	 	 	"trans": "ของความเสียหาย",
+ 	 	 	"trans": "แห่งความเสียหาย",
  	 	 	"eng": "of Damage"
  	 	},
  	 	"upgradeShield": {
- 	 	 	"trans": "ของโล่",
+ 	 	 	"trans": "แห่งโล่",
  	 	 	"eng": "of Shield"
  	 	},
  	 	"upgradeSneaky": {
- 	 	 	"trans": "ของการแอบ",
+ 	 	 	"trans": "แห่งการแอบ",
  	 	 	"eng": "of Sneaking"
  	 	},
  	 	"upgradeHealthRegen": {
- 	 	 	"trans": "ของชีวิต",
+ 	 	 	"trans": "แห่งชีวิต",
  	 	 	"eng": "of Life"
  	 	},
  	 	"upgradeStun": {
- 	 	 	"trans": "ของ stun",
+ 	 	 	"trans": "แห่ง stun",
  	 	 	"eng": "of Stun"
  	 	},
  	 	"upgradeCriticalChance": {
- 	 	 	"trans": "ของโอกาส crit",
+ 	 	 	"trans": "แห่งโอกาส crit",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"upgradeCriticalDamage": {
- 	 	 	"trans": "ความเสียหายของ Crit",
+ 	 	 	"trans": "แห่งความเสียหายของ Crit",
  	 	 	"eng": "of Crit Damage"
  	 	},
  	 	"upgradeEvade": {
- 	 	 	"trans": "ของ Evade",
+ 	 	 	"trans": "แห่ง Evade",
  	 	 	"eng": "of Evade"
  	 	},
  	 	"upgradePocketed": {
- 	 	 	"trans": "ของการขยายตัว",
+ 	 	 	"trans": "แห่งการขยายตัว",
  	 	 	"eng": "of Expansion"
  	 	}
  	},
